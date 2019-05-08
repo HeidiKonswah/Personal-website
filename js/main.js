@@ -1,6 +1,6 @@
 
 function displayHeader(){
-	var pic = HTMLbioPic.replace("%data%", headInfo.pic);
+	var pic = HTMLbioPic.replace("%data%", "https://drive.google.com/open?id=1gG2W_rsDju8vVPSPCyHeeIJt4rVkP3UV");
 	$("#header").append(pic);
 	var name = HTMLheaderName.replace("%data%",headInfo.name);
 	$("#header").append(name);
