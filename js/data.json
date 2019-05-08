@@ -1,0 +1,8 @@
+{
+	"basicInfo" : {
+		"name" : "Heidi Konswah", 
+		"role" : "Front-end Developer",
+		"contact" : {"email" :"Heidikonswah@gmail.com", "phone" : "01146955011"},
+		"pic" : "images/img.png",
+	}
+}

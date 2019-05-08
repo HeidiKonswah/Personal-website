@@ -1,0 +1,256 @@
+h1 {
+	font-family: 'Quicksand', sans-serif;
+}
+h2 {
+	font-family: 'Satisfy', cursive;
+	width:30%;
+	padding:20px;
+	margin-top: 0;
+	text-align: center;
+	color:#474350;
+	font-size: 3em;
+}
+
+body {
+	margin:0;
+	font-family: 'Lato', sans-serif;
+}
+.flexContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#biopic {
+	width :160px;
+	height:160px;
+	border-radius: 80px;
+	box-shadow: 5px 5px 10px #803631;
+}
+#about {
+	width:30%;
+	display: inline-block;
+	padding: 20px;
+	margin:0;
+	border-top: 2px solid #FDFFFF;
+}
+
+#head {
+	background-color: #C05850;
+	background-image: linear-gradient(45deg, transparent, #69302C);
+	color:#FDFFFF;
+	min-height: 500px;
+	text-align: center;
+	box-shadow: 0px 5px 10px #D19D3A;
+}
+
+#resBtn {
+	padding:10px 20px;
+	border:1px solid #FDFFFF;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color:#FDFFFF;
+	cursor: pointer;
+	background-color: #845c3d3d;
+}
+#resBtn:hover {
+	transition: all 500ms ease;
+	background-color: #803631;
+}
+#socials{
+	text-align: right;
+	padding:10px;
+}
+.socialIcon {
+	width: 30px;
+	height:30px;
+	
+	margin:5px;
+	transition: all 500ms ease;
+}
+
+.socialIcon:hover {
+	width:40px;
+	height: 40px;
+}
+
+.section {
+	min-height :500px;
+	color:#474350;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#projects {
+	background-color: #FBFBDA;
+}
+#skills{
+	background-color: #f1ece1;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size:70px 70px;
+	background-image: radial-gradient(#F6F2EB 15%, transparent 15%),
+	linear-gradient(45deg, transparent 48%, #F6F2EB 48%, #F6F2EB 52%, transparent 52%),
+	linear-gradient(-45deg, transparent 48%, #F6F2EB 48%, #F6F2EB 52%, transparent 52%);
+}
+.skillIcon {
+	font-size: 90px;
+	padding: 20px;
+	margin:5px;
+	box-shadow: 5px 5px 10px #ded4bd9e;
+	border-radius: 50% 50%;
+	background-color: #e2ab7f78;
+}
+
+
+#skillsChart {
+	width: 60%;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#contact{
+	background-color: #474350;
+	min-height:200px;
+	color:#eee;
+}
+#contactList{
+	width:100%;
+	height:100%;
+	flex-direction: row;
+
+}
+#contact h2 {
+	color:#eee;
+	width:50%;
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 0px;
+}
+#contactList li {
+	padding:30px;
+	margin:30px;
+	list-style-type: none;
+	text-align: center;
+}
+#contactList i {
+	padding:30px;
+	font-size:48px;
+	color:#eee;
+}
+#projectsList{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#projects h2 {
+	margin: 5px;
+	padding:10px;
+}
+
+.card {
+	font-family: 'Lato', sans-serif;
+	width: 250px;
+	height: 370px;
+	background-color: #FDFFFF;
+	margin: 45px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ddd;
+	transition: all 500ms ease;
+
+}
+.card:hover {
+	box-shadow: 10px 10px 10px #ddd;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.cardDown {
+	z-index: 100;
+	position: relative;
+	background-color: #fff;
+	margin-top: -40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding:10px;
+}
+.card img {
+	width:100%;
+	height: 60%;
+	margin: 0;
+}
+.card h3{
+	margin-top:0;
+	color: #474350;
+	text-align: center;
+	text-transform : uppercase;
+	letter-spacing: 3px;
+}
+.card p{
+	color: #333;
+  margin: 5px;
+  font-family:roboto;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.card a {
+	padding: 3px;
+	color: #474350;
+	font-weight: bold;
+}
+
+@media only screen and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+ 
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)  {
+  	.section {
+  			min-height: 300px;
+  	}
+  	.skillIcon {
+  		font-size: 40px;
+		padding: 5px;
+		margin:3px;
+		box-shadow: 5px 5px 10px #ded4bd9e;
+		border-radius: 50% 50%;
+		background-color: #e2ab7f78;
+  }
+  	h2 {
+  		font-size: 1.7em;
+  		width: 100%;
+  }
+    #contactList {
+    	flex-direction: column;
+    }
+  	#contactList li {
+		padding:5px;
+		margin:10px;
+	}
+	#contactList i {
+		padding:5px;
+		font-size:30px;
+		
+	}
+	#head p {
+		width:100%;
+	}
+	.socialIcon {
+		width:20px;
+		height:20px;
+	}
+  }
