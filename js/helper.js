@@ -12,7 +12,7 @@ var headInfo = {
 	name : "Heidi Konswah.", 
 	title : "Frontend Developer",
 	about : "I'm a communications and electronics engineering student, who loves making cool interactive websites.",
-	pic : "img/img.png",
+	pic : "https://drive.google.com/open?id=1gG2W_rsDju8vVPSPCyHeeIJt4rVkP3UV",
 	socials : [
 	{title:"github", icon:"img/git_icon.png", url:"https://github.com/HeidiKonswah"},
 	{title:"linkedin", icon:"img/in_icon.png", url:"https://www.linkedin.com/in/heidi-saied-konswah/"},
